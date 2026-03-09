@@ -1,0 +1,144 @@
+[versions]
+afollestadCore = "0.9.6.0"
+agp = "8.10.1"
+annotation = "1.9.1"
+annotations = "4.16.0"
+blurview = "1.6.6"
+bubblenavigation = "1.0.7"
+calligraphy3 = "3.1.1"
+circleimageview = "3.1.0"
+colorpickerPreference = "1.0.7"
+colorsheet = "1.0.6"
+compilerVersion = "4.16.0"
+converterGson = "2.9.0"
+core = "1.15.0"
+coreVersion = "2.2.0"
+epoxy = "5.0.0"
+firebaseBom = "33.7.0"
+firebaseMessaging = "24.1.0"
+glide = "4.14.2"
+googleApiClientAndroid = "1.34.0"
+googleFirebaseFirestore = "24.0.0"
+googleMaterial = "1.12.0"
+googleMaterialTypeface = "6.0.0.1"
+googleMaterialTypefaceVersion = "4.0.0.3"
+googleMaterialVersion = "1.9.0"
+gson = "2.10.1"
+iconicsCore = "5.3.5"
+iconicsCoreVersion = "5.3.6"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+library = "1.0.3"
+lottie = "6.0.0"
+material = "1.12.0"
+activity = "1.9.3"
+constraintlayout = "2.2.0"
+materialdesign = "1.5"
+materialdesignlibrary = "1.6"
+materialdesignlibraryVersion = "1.3"
+materialVersion = "1.8.0"
+mikepenzGoogleMaterialTypeface = "4.0.0.3-kotlin"
+mpandroidchart = "v3.1.0"
+playServicesAuth = "21.3.0"
+playServicesAuthVersion = "20.7.0"
+playServicesMaps = "19.0.0"
+playServicesTagmanager = "18.1.1"
+recyclerview = "1.3.2"
+books = "1.0.0"
+firebaseAuth = "23.1.0"
+firebaseFirestore = "25.1.1"
+repo = "Tag"
+sdpAndroid = "1.0.6"
+shapeofview = "1.4.7"
+shimmer = "0.5.0"
+skipUi = "1.0.0"
+skipUiVersion = "1.0.0"
+sspAndroid = "1.0.6"
+supportV4 = "28.0.0"
+toasty = "1.5.2"
+transformationlayout = "1.1.2"
+viewpump = "2.0.3"
+volley = "1.2.1"
+firebaseStorage = "21.0.1"
+roomCompilerProcessingTesting = "2.6.1"
+waveview = "1.2.2"
+
+[libraries]
+annotation = { module = "androidx.annotation:annotation", version.ref = "annotation" }
+annotations = { module = "com.github.bumptech.glide:annotations", version = "4.16.0" }
+blurview = { module = "com.eightbitlab:blurview", version.ref = "blurview" }
+bubblenavigation = { module = "com.gauravk.bubblenavigation:bubblenavigation", version.ref = "bubblenavigation" }
+calligraphy3 = { module = "io.github.inflationx:calligraphy3", version.ref = "calligraphy3" }
+circleimageview = { module = "de.hdodenhof:circleimageview", version.ref = "circleimageview" }
+colorpicker-preference = { module = "com.github.skydoves:colorpicker-preference", version.ref = "colorpickerPreference" }
+colorsheet = { module = "dev.sasikanth:colorsheet", version.ref = "colorsheet" }
+compiler = { module = "com.github.bumptech.glide:compiler", version = "4.16.0" }
+compiler-v4110 = { module = "com.github.bumptech.glide:compiler", version.ref = "compilerVersion" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version = "2.11.0" }
+core = { module = "androidx.core:core", version.ref = "core" }
+core-v220 = { module = "androidx.core:core", version.ref = "coreVersion" }
+epoxy = { module = "com.airbnb.android:epoxy", version.ref = "epoxy" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics", version = "22.1.2" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics", version = "19.3.0" }
+firebase-firestore-v2400 = { module = "com.google.firebase:firebase-firestore", version = "25.1.1" }
+firebase-messaging = { module = "com.google.firebase:firebase-messaging", version.ref = "firebaseMessaging" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "annotations" }
+glide-v4142 = { module = "com.github.bumptech.glide:glide", version = "4.16.0" }
+google-api-client-android = { module = "com.google.api-client:google-api-client-android", version.ref = "googleApiClientAndroid" }
+google-firebase-analytics = { module = "com.google.firebase:firebase-analytics", version = "22.1.2" }
+google-firebase-messaging = { module = "com.google.firebase:firebase-messaging" }
+google-material-typeface = { module = "com.mikepenz:google-material-typeface", version.ref = "googleMaterialTypeface" }
+google-material-typeface-v4003 = { module = "com.mikepenz:google-material-typeface", version.ref = "googleMaterialTypefaceVersion" }
+google-material-typeface-v4003kotlin = { module = "com.mikepenz:google-material-typeface", version.ref = "mikepenzGoogleMaterialTypeface" }
+google-material-v190 = { module = "com.google.android.material:material", version.ref = "googleMaterial" }
+gson = { module = "com.google.code.gson:gson", version = "2.11.0" }
+iconics-core = { module = "com.mikepenz:iconics-core", version.ref = "iconicsCore" }
+iconics-core-v536 = { module = "com.mikepenz:iconics-core", version.ref = "iconicsCoreVersion" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+library = { module = "com.github.dmytrodanylyk.shadow-layout:library", version.ref = "library" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+material-dialogs-core = { module = "com.afollestad.material-dialogs:core", version.ref = "afollestadCore" }
+material-v180 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+material-v190 = { module = "com.google.android.material:material", version.ref = "googleMaterialVersion" }
+materialdesign = { module = "com.github.navasmdc:MaterialDesign", version.ref = "materialdesign" }
+materialdesignlibrary = { module = "com.github.navasmdc:MaterialDesignLibrary", version.ref = "materialdesignlibrary" }
+materialdesignlibrary-v13 = { module = "com.github.navasmdc:MaterialDesignLibrary", version.ref = "materialdesignlibraryVersion" }
+mikepenz-iconics-core = { module = "com.mikepenz:iconics-core" }
+mpandroidchart = { module = "com.github.PhilJay:MPAndroidChart", version.ref = "mpandroidchart" }
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+play-services-auth-v2070 = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuthVersion" }
+play-services-maps = { module = "com.google.android.gms:play-services-maps", version.ref = "playServicesMaps" }
+play-services-tagmanager = { module = "com.google.android.gms:play-services-tagmanager", version.ref = "playServicesTagmanager" }
+repo = { module = "com.github.User:Repo", version.ref = "repo" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version = "2.11.0" }
+recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+books = { group = "com.google.android.mediahome", name = "books", version.ref = "books" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
+sdp-android = { module = "com.intuit.sdp:sdp-android", version.ref = "sdpAndroid" }
+shapeofview = { module = "com.github.florent37:shapeofview", version.ref = "shapeofview" }
+shimmer = { module = "com.facebook.shimmer:shimmer", version.ref = "shimmer" }
+skip-skip-ui = { module = "io.skip:skip-ui", version.ref = "skipUiVersion" }
+skip-ui = { module = "com.example:skip-ui", version.ref = "skipUi" }
+ssp-android = { module = "com.intuit.ssp:ssp-android", version.ref = "sspAndroid" }
+support-v4 = { module = "com.android.support:support-v4", version.ref = "supportV4" }
+toasty = { module = "com.github.GrenderG:Toasty", version.ref = "toasty" }
+transformationlayout = { module = "com.github.skydoves:transformationlayout", version.ref = "transformationlayout" }
+viewpump = { module = "io.github.inflationx:viewpump", version.ref = "viewpump" }
+volley = { module = "com.android.volley:volley", version.ref = "volley" }
+firebase-storage = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebaseStorage" }
+room-compiler-processing-testing = { group = "androidx.room", name = "room-compiler-processing-testing", version.ref = "roomCompilerProcessingTesting" }
+waveview = { module = "com.github.Gordon1992:WaveView", version.ref = "waveview" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+

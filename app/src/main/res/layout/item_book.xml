@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/ivBookCover"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/book_cover"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.MediumComponent"
+        app:strokeColor="@color/primary"
+        app:strokeWidth="2dp"/>
+
+    <TextView
+        android:id="@+id/tvBookTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Book Title"
+        android:textSize="16sp"
+        style="@style/TextAppearance.MaterialComponents.Body1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/read"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Read"
+        app:cornerRadius="12dp"
+        app:strokeWidth="2dp"
+        app:strokeColor="@color/primary"
+        style="@style/Widget.MaterialComponents.Button"
+        />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/cbCurrentlyReading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Currently Reading"
+        android:layout_marginTop="8dp"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        />
+
+</LinearLayout>

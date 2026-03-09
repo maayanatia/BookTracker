@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">BookTracker</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="user">User</string>
+    <string name="book_cover">Book Cover</string>
+    <string name="welcome_message">Welcome [user]</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="page_count">page count</string>
+    <string name="books_read">Books Read</string>
+    <string name="settings">Settings\n</string>
+    <string name="username">username</string>
+    <string name="book_title">Book Title</string>
+    <string name="author">Author</string>
+    <string name="publication_date">Publication Date</string>
+    <string name="genre">Genre</string>
+    <string name="description">Description</string>
+    <string name="reading_progress">Reading Progress</string>
+    <string name="_0">0%</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+    <string name="tags_fiction_mystery_thriller">Tags: Fiction, Mystery, Thriller</string>
+    <string name="go_back">Go Back</string>
+    <string name="Password">password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="followers_0">Followers: 0</string>
+    <string name="books_read_0">Books Read: 0</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="unfollow">unfollow</string>
+    <string name="follow">follow</string>
+    <string name="followed_0">Followed: 0</string>
+    <string-array name="languages_array">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Chinese</item>
+    </string-array>
+</resources>

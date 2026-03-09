@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="nav_icon_tint">#FF7043</color>
+    <color name="primary">#6200EE</color>
+    <color name="material_dynamic_neutral50">#FAFAFA</color>
+    <color name="black">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>

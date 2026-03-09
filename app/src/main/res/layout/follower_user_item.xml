@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/rounded_background"
+    android:layout_marginBottom="8dp"
+    android:elevation="4dp">
+
+    <!-- Display the followed user's username -->
+    <TextView
+        android:id="@+id/followed_username"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Username"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+    <!-- Unfollow button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnUnfollow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove"
+        android:textColor="@android:color/white"
+        android:icon="@drawable/ic_unfollow"
+        android:iconTint="@android:color/white"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_marginStart="12dp"
+        android:layout_gravity="end"
+        />
+
+</LinearLayout>
